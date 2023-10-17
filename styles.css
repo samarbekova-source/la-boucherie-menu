@@ -1,0 +1,100 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 0.15rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: var(--ff-primary);
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.95rem;
+  letter-spacing: 0.15rem;
+  line-height: 1.25;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+p {
+  color: rgb(81, 79, 79);
+}
+.section {
+  padding: 5rem 0;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
+  margin: auto;
+}
+
+nav {
+  /* background-color: rgb(250, 248, 250); */
+  background-color: rgb(248, 230, 248);
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.links {
+  text-transform: capitalize;
+  display: flex;
+  padding: 0.5rem 1rem;
+  letter-spacing: 0.15rem;
+}
+
+.links a {
+  margin-left: 50px;
+  color: black;
+  font-size: 1rem;
+}
+
+/* menu section */
+.menu {
+  padding: 3rem 0;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 30px;
+}
+
+hr {
+  margin-bottom: 30px;
+}
+.photo {
+  object-fit: cover;
+  height: 200px;
+  border: 0.25rem solid rgb(242, 205, 242);
+  border-radius: 15px;
+}
