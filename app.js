@@ -58,11 +58,11 @@ const menu = [
   },
   {
     id: 8,
-    title: "lasagna",
+    title: "chicken bbq",
     category: "dinner",
     price: 16.99,
-    img: "./images/lasagna.jpg",
-    desc: `Layers of rich, slow-cooked beef Bolognese sauce, creamy béchamel, and tender lasagna noodles, baked to perfection. Topped with a generous portion of melted mozzarella and Parmesan cheese. Served with garlic bread and a side salad.  `,
+    img: "./images/chicken_bbq.jpg",
+    desc: `Succulent chicken pieces marinated in a smoky barbecue sauce and slow-cooked to tender perfection, ensuring each bite is packed with flavor.  `,
   },
   {
     id: 9,
